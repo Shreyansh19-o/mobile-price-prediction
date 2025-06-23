@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns 
 
-df=pd.read_csv(r'C:\Users\dk980\Downloads\mobile-price-prediction\train_data.csv')
+df=pd.read_csv(r'train_data.csv')
 
 x=df.iloc[:,0:-1].values #here [:,0:-1] first : represents all rows and after from column index 0 to -1(last column)
 y=df.iloc[:,-1].values
